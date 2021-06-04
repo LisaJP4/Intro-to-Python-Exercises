@@ -1,6 +1,9 @@
-mark = 89
+mark = int(input("Enter your mark: "))
 
 if mark > 85:
-	print("distinction")
+	print("Distinction")
+elif mark > 65 and mark <=85:
+	print("Pass")
 else: 
-	print("fail")
+	print("Fail")
+
