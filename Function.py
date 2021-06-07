@@ -18,3 +18,11 @@ added_number = add_calc(a, b, c)
 
 print((added_number/175) * 100)
 
+mark = int(input("Enter your mark: "))
+
+if mark > 85:
+	print("A")
+elif mark > 65 and mark <=85:
+	print("B")
+else: 
+	print("C")
