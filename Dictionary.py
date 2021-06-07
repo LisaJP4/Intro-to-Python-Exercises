@@ -1,3 +1,8 @@
-books = {"The Handmaiden's Tale":"Margaret Atwood", "The Hobbit":"J.R.R. Tolkien", "Charlie and the Chocolate Factory":"Roald Dahl"}
+German = {"Hallo": "Hello", "Guten Tag": "Good Day"}
+print(German)
 
-print(books)
+German["Guten Morgen"] = "Good Morning"
+print(German)
+
+country = ("Germany, France, England")
+print(country)
