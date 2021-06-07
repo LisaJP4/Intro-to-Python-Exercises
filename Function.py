@@ -1,28 +1,7 @@
-def add_calc(number1, number2):
-    answer = number1 + number2
-    return answer
+def grade(hwscore,assess_score,final_exam):
+	percent = hwscore + access_score +final_exam/3*100
+	percentage - str(percent)
+	return percentage
 
-added_number = add_calc(5,5)
+print(grade(12,25,60)
 
-print(added_number + 20)
-
-def add_calc(a, b, c):
-	answer = a + b + c
-	return answer
-
-a = 23
-b = 47
-c = 67
-
-added_number = add_calc(a, b, c)
-
-print((added_number/175) * 100)
-
-mark = int(input("Enter your mark: "))
-
-if mark > 85:
-	print("A")
-elif mark > 65 and mark <=85:
-	print("B")
-else: 
-	print("C")

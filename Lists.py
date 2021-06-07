@@ -1,11 +1,5 @@
-people = ["Ben", "Victoria", "Simon", "Jack"]
+languages = ["English", "Spanish", "German", "Italian"]
+print(languages[2])
 
-print(people)
-
-words = ["people", "cities", "places"]
-
-print(words)
-
-words.append("animals")
-
-print(words)
+languages[2] = "French"
+print(languages)
