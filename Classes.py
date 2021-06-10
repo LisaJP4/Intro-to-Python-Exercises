@@ -23,3 +23,27 @@ John = Student("John", "21")
 Jane = Student("Jane", "22")
 
 print(getattr(John, "age"))
+
+class Instrument:
+    def __init__(self, name, sound):
+        self.name = name
+        self.sound = sound
+
+Trumpet = Instrument("Trumpet", "brassy")
+
+print(getattr(Trumpet, "sound"))
+
+
+class Athlete:
+    def __init__(self, name):
+        self.name = name
+
+
+class Footballer(Athlete):
+    def __init__(self, name, team):
+        super(Footballer, self).__init__(name)
+        self.team = team
+
+Player_1 = Footballer("Jason", "Leeds United")
+
+print(hasattr(Player_1, "age"))
